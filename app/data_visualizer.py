@@ -26,3 +26,12 @@ class DataVisualizer:
         plt.title("Min and Max Scores per Skill")
         plt.legend()
         plt.show()
+
+    def plot_count_vs_mean(self):
+        plt.figure(figsize=(8, 5))
+        sns.scatterplot(data=self.aggregated_data, x="count", y="mean_score", hue="skill", palette="tab10", s=100)
+
+        plt.title("Skill Score Distribution")
+        plt.xlabel("Number of Records (Count)")
+        plt.ylabel("Mean Score")
+        plt.show()

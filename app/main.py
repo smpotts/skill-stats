@@ -18,6 +18,7 @@ def main():
     data_viz.plot_skill_count()
     data_viz.plot_mean_score()
     data_viz.plot_min_max_score()
+    data_viz.plot_count_vs_mean()
 
 if __name__ == "__main__":
     main()
