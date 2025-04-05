@@ -1,4 +1,4 @@
-# Data Cleaner 
+# Skill Stats 
 This project is designed to process, validate, and clean raw JSON data from multiple sources. The data is then aggregated and stored in a structured format for further analysis or use.  It follows a structured pipeline:
 
 - Data Processing – Cleans and validates raw data.
